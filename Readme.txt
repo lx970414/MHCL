@@ -1,0 +1,9 @@
+python -u train.py --data_name=yelp  --use_one_hot_fea --device -1  --ARR 0.0000003 --train_early_stopping_patience 150 --layers 4 --gcn_agg_units 90 --train_lr 0.01 --data_valid_ratio 0.111 --model_activation tanh --gcn_out_units 90 --train_decay_patience 30 --hyperedge_num 32
+
+python -u train.py --data_name=ml-100k --use_one_hot_fea --device -1 --ARR 0.0001 --layers 3 --data_valid_ratio 0.05 --model_activation tanh --train_decay_patience 60 --hyperedge_num 256 
+
+python -u train.py --data_name=amazon  --use_one_hot_fea --device -1  --ARR 0.000000 --train_early_stopping_patience 200 --layers 3 --gcn_agg_units 90 --train_lr 0.01 --data_valid_ratio 0.111 --model_activation tanh --gcn_out_units 90 --train_decay_patience 60 --alpha 0.05 --hyperedge_num 16 
+
+python -u train.py --data_name=yahoo_music --use_one_hot_fea --gcn_agg_accum=stack --device -1 --ARR 0.000000000002 --train_early_stopping_patience 100 --layers 3 --gcn_agg_units 45 --train_lr 0.01 --data_valid_ratio 0.1 --model_activation tanh --gcn_out_units 45
+
+python -u train.py --data_name=ml-1m --use_one_hot_fea --device -1 --ARR 0.000001 --gcn_agg_units 1200 --train_early_stopping_patience 1200 --train_decay_patience 200 --layers 2 --data_valid_ratio 0.09 --model_activation tanh --hyperedge_num 512 
