@@ -21,12 +21,12 @@ Recent versions of the following packages for Python 3 are required:
 All of the datasets we use are publicly available datasets.
 ### Link
 The used datasets are available at:
-* Amazon 
-* Yelp 
-* ML-100K 
-* ML-1M
-* YahooMusic
-* Douban
+* Amazon https://jmcauley.ucsd.edu/data/amazon/
+* Yelp https://www.yelp.com/dataset/
+* ML-100K https://grouplens.org/datasets/movielens/
+* ML-1M https://grouplens.org/datasets/movielens/
+* YahooMusic https://github.com/muhanzhang/IGMC/tree/master/raw_data/yahoo_music
+* Douban https://github.com/swtheing/IMC-GAE/tree/master/raw_data/douban
 
 ## Usage
 Use the following command to run the main script with configuration options. For example:
